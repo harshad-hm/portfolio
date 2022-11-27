@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins';
+    background: #FBF8CC;
+}
+.name {
+    position: absolute;
+width: 112px;
+height: 36px;
+left: 97px;
+top: 34px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 36px;
+/* identical to box height */
+
+
+/* Dark Blue */
+
+color: #03045E;
+
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navelink{
+    list-style: none ;
+    display: flex;
+    justify-content: center;
+
+
+}
+.navlinks li{
+    margin: 30px;
+}
